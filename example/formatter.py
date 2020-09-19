@@ -10,7 +10,7 @@ with open('input.txt', 'r') as istr:
             
             if i + 1 < 9999999999999999:
                 #line += ' overworld'
-                line = '.waypoint add egap' + str(EgapNumber) + ' ' + line + ' overworld'
+                line = '.waypoint add waypoint' + str(EgapNumber) + ' ' + line + ' overworld'
                 EgapNumber += 1 
                 
             print(line, file=ostr)
