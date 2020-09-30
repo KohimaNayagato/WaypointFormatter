@@ -6,6 +6,7 @@ Have a text file with the Coordinates you wish to format into waypoints formatte
 ![Like this](https://raw.githubusercontent.com/KohimaNayagato/WaypointFormatter/master/images/input.png)
 
 Open Terminal in the same directory as the Script and execute it like so
+
 ![Like so](https://raw.githubusercontent.com/KohimaNayagato/WaypointFormatter/master/images/formatter.png)
 
 Enter the name of the input file with the extension
