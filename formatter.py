@@ -1,6 +1,6 @@
 # Created by KohimaNayagato on 14/10/2020
 
-number = int(input("How many egap coordinates are you formatting?\n"))
+number = int(input("How many coordinates are you formatting?\n"))
 name = input("What is the name of the file you wish to format? (Include Extension)\n")
 waypointname = input("What do you wish to name the Waypoints? e.g egap = egap1, egap2, egap3 etc\n")
 
