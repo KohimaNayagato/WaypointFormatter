@@ -1,10 +1,5 @@
-.waypoint add egap1 -169781.5 12.5 7117.5 overworld
-.waypoint add egap2 -169216 51 6844 overworld
-.waypoint add egap3 -170012 24 7316 overworld
-.waypoint add egap4 -169409 32 7359 overworld
-.waypoint add egap5 -170005.5 10.5 8169.5 overworld
-.waypoint add egap6 -169976.5 16.5 8018.5 overworld
-.waypoint add egap7 -169056.5 21.5 7862.5 overworld
-.waypoint add egap8 -169457 38 8364 overworld
-.waypoint add egap9 -169259 58 8394 overworld
-.waypoint add egap10 -169164 22 9007 overworld
+.waypoint add egap566 -259810 16 30045 overworld
+.waypoint add egap565 -259840 21 30349 overworld
+.waypoint add egap564 -259602.5 21.5 30495.5 overworld
+.waypoint add egap563 -259265 16 30162 overworld
+.waypoint add egap562 -259474.5 20.5 30337.5 overworld
