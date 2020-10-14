@@ -1,21 +1,17 @@
-# Created by Jawhawk on 29/04/2020
-# Modified by KohimaNayagato on 30/09/2020
+# Created by KohimaNayagato on 14/10/2020
 
-number = 1
+number = int(input("How many egap coordinates are you formatting?\n"))
 name = input("What is the name of the file you wish to format? (Include Extension)\n")
-WaypointName = input("What do you wish to name the Waypoints?\n")
+waypointname = input("What do you wish to name the Waypoints? e.g egap = egap1, egap2, egap3 etc\n")
 
-with open(str(name), 'r') as istr:
-    with open('output.txt', 'w') as ostr:
-        for i, line in enumerate(istr):
-            # Get rid of the trailing newline (if any).
-            line = line.rstrip('\n')
-            
-            if i + 1 < 9999999999999999:
-                #line += ' overworld'
-                line = '.waypoint add ' + WaypointName + str(number) + ' ' + line + ' overworld'
-                number += 1 
-                
-            print(line, file=ostr)
-            print("Line " + str(number) + ": Formatting completed without errors")
-print("Formatting Completed without issue")
+with open(str(name), 'r') as inputstring:
+    with open('output.txt', 'w') as outputstring:
+            while 0 < number:
+                for i, line in enumerate(inputstring):
+                    number = number - 1
+                    line = line.strip("Dungeon Chest with ench gapple at: Minecart with ench gapple at: \n")
+                    line = '.waypoint add ' + waypointname + str(number) + ' ' + line + ' overworld'
+                    print(line, file=outputstring)
+                    print("Line " + str(number) + ": Formatting completed without errors")
+                    if number == 0:
+                        quit()
